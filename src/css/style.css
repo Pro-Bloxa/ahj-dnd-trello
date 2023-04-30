@@ -1,0 +1,109 @@
+.body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.title {
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #4d4d4d;
+}
+
+.task-widget {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  background-color: #9db8d1;
+
+}
+
+.task-widget__column {
+  position: relative;
+  width: 31%;
+  min-height: 200px;
+  padding: 10px;
+  padding-bottom: 55px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3px;
+}
+
+.column-title {
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #4d4d4d;
+}
+
+.task-widget__item {
+  position: relative;
+  width: 98%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-radius: 3px;
+  background-color: #f0efef;
+  align-self: center;
+  padding: 6px;
+}
+
+
+.task-widget__item--dragged {
+  position: absolute;
+}
+
+.task-widget__item--close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+}
+
+
+.task-widget__button {
+  width: 100%;
+  border-radius: 3px;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border: none;
+  color: #4d4d4d;
+  text-transform: uppercase;
+}
+
+.add-card__form {
+  position: absolute;
+  border-radius: 3px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #b6d3ee;
+}
+
+.add-card__input {
+  width: 98%;
+  min-height: 30px;
+  resize: none;
+}
+
+.add-card__button {
+  margin: 10px;
+  padding: 5px;
+  border: none;
+  color: #4d4d4d;
+  background-color: #adc7e0;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.add-card__close {
+  font-size: 20px;
+  color: #4d4d4d;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
